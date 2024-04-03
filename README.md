@@ -41,11 +41,13 @@ Download all files and navigate inside project folder
 
 <li>Replace your-username with your GitHub username and your-repo-name with the name of your repository. </li>
 
-<li>Deploy your app by running:<br>
+<li>Deploy your app by running:</li><br>
 
-    npm run deploy
+```
+npm run deploy
+```
 
-This will create a new branch called gh-pages in your repository and push the built files from the build directory to that branch. </li>
+> This will create a new branch called gh-pages in your repository and push the built files from the build directory to that branch.
 
 <li>Enable GitHub Pages: Go to your repository on GitHub and navigate to the "Settings" tab. Scroll down to the "GitHub Pages" section 
     and select the gh-pages branch as the source for your GitHub Pages site. </li>
