@@ -39,7 +39,16 @@ Download all files and navigate inside project folder
     "deploy": "gh-pages -d build"
     }
 
-<li>Replace your-username with your GitHub username and your-repo-name with the name of your repository. </li>
+> Replace your-username with your GitHub username and your-repo-name with the name of your repository.
+
+<li> (Optional) If using Vite build, then add the base path to the `vite.config.js` such as:</li>
+
+```
+export default defineConfig({
+  plugins: [react()],
+  base: '/real-estate-website/'
+})
+```
 
 <li>Deploy your app by running:</li><br>
 
